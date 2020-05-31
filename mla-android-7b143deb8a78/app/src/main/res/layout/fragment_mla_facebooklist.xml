@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/fragment_display_facebook_coordinatorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/list_bg">
+
+        <ListView
+            android:id="@+id/lv1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/searchView"
+            android:divider="#ad5"
+            android:dividerHeight="2dp" />
+        <SearchView
+            android:id="@+id/searchView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:queryHint="Search Here"
+            android:iconifiedByDefault="false"
+            android:layout_alignParentTop="true"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.paril.mlaclientapp.ui.view.EmptyRecyclerView
+                android:id="@+id/mla_facebook_display_recyyclerView"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"></com.paril.mlaclientapp.ui.view.EmptyRecyclerView>
+
+            <RelativeLayout
+                android:id="@+id/fragment_display_facebook_relEmptyView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="No Facebook has been added." />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fragment_display_facebook_fabAddUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:layout_margin="10dp"
+            android:src="@drawable/ic_add_white"
+            app:backgroundTint="@color/accent_color" />
+    </android.support.design.widget.CoordinatorLayout>
+
+    </LinearLayout>

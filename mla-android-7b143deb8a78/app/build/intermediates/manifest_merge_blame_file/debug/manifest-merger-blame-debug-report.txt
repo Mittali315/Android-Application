@@ -1,0 +1,221 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.paril.mlaclientapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="24" />
+9-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml
+10
+11    <uses-feature
+11-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:5:5-7:35
+12        android:name="android.hardware.microphone"
+12-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:6:9-51
+13        android:required="false" />
+13-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:7:9-33
+14    <uses-feature android:name="android.hardware.camera" />
+14-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:9:5-60
+14-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:9:19-57
+15
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:12:5-66
+16-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:12:22-64
+17    <uses-permission android:name="android.permission.CAMERA" />
+17-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:14:5-64
+17-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:14:22-62
+18    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+18-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:15:5-79
+18-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:15:22-77
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:16:5-78
+19-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:16:22-76
+20    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+20-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:17:5-70
+20-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:17:22-68
+21    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+21-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:18:5-74
+21-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:18:22-72
+22    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+22-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:20:5-73
+22-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:20:22-70
+23
+24    <meta-data
+24-->[com.android.support:appcompat-v7:25.3.0] C:\Users\14159\.gradle\caches\transforms-2\files-2.1\f2ab824670ced0fe58318788adb18df0\appcompat-v7-25.3.0\AndroidManifest.xml:25:5-27:34
+25        android:name="android.support.VERSION"
+25-->[com.android.support:appcompat-v7:25.3.0] C:\Users\14159\.gradle\caches\transforms-2\files-2.1\f2ab824670ced0fe58318788adb18df0\appcompat-v7-25.3.0\AndroidManifest.xml:26:9-47
+26        android:value="25.3.0" />
+26-->[com.android.support:appcompat-v7:25.3.0] C:\Users\14159\.gradle\caches\transforms-2\files-2.1\f2ab824670ced0fe58318788adb18df0\appcompat-v7-25.3.0\AndroidManifest.xml:27:9-31
+27
+28    <application
+28-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:22:5-103:19
+29        android:allowBackup="true"
+29-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:23:9-35
+30        android:debuggable="true"
+31        android:icon="@mipmap/ic_launcher"
+31-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:24:9-43
+32        android:label="@string/app_name"
+32-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:25:9-41
+33        android:supportsRtl="true"
+33-->[com.github.pchmn:MaterialChipsInput:1.0.8] C:\Users\14159\.gradle\caches\transforms-2\files-2.1\47b539ee9d99e06c459d44548e7e3db6\MaterialChipsInput-1.0.8\AndroidManifest.xml:14:9-35
+34        android:testOnly="true"
+35        android:theme="@style/AppTheme" >
+35-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:26:9-40
+36        <service android:name="com.paril.mlaclientapp.sinch.SinchService" />
+36-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:27:9-63
+36-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:27:18-52
+37
+38        <activity
+38-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:29:9-103
+39            android:name="com.paril.mlaclientapp.sinch.VideoCallScreenActivity"
+39-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:29:19-64
+40            android:screenOrientation="portrait" />
+40-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:29:65-101
+41        <activity
+41-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:31:9-98
+42            android:name="com.paril.mlaclientapp.sinch.CallScreenActivity"
+42-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:31:19-59
+43            android:screenOrientation="portrait" />
+43-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:31:60-96
+44        <activity
+44-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:32:9-105
+45            android:name="com.paril.mlaclientapp.ui.activity.CallStudentActivity"
+45-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:32:19-66
+46            android:screenOrientation="portrait" />
+46-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:32:67-103
+47        <activity
+47-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:34:9-106
+48            android:name="com.paril.mlaclientapp.sinch.IncomingCallScreenActivity"
+48-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:34:19-67
+49            android:screenOrientation="portrait" />
+49-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:34:68-104
+50        <activity
+50-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:35:9-97
+51            android:name="com.paril.mlaclientapp.sinch.PlaceCallActivity"
+51-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:35:19-58
+52            android:screenOrientation="portrait" />
+52-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:35:59-95
+53        <activity
+53-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:36:9-46:20
+54            android:name="com.paril.mlaclientapp.ui.activity.MLALoginActivity"
+54-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:37:13-57
+55            android:label="@string/app_name"
+55-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:40:13-45
+56            android:screenOrientation="portrait" >
+56-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:38:13-49
+57            <intent-filter>
+57-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:41:13-45:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:42:17-69
+58-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:42:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:44:17-77
+60-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:44:27-74
+61            </intent-filter>
+62        </activity>
+63        <activity
+63-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:47:9-53:20
+64            android:name="com.paril.mlaclientapp.ui.activity.MLAHomeActivity"
+64-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:48:13-56
+65            android:label="@string/title_activity_login"
+65-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:49:13-57
+66            android:screenOrientation="portrait"
+66-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:50:13-49
+67            android:windowSoftInputMode="stateHidden|adjustPan" >
+67-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:52:13-64
+68        </activity>
+69        <activity
+69-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:54:9-58:20
+70            android:name="com.paril.mlaclientapp.ui.activity.MLAViewAdminActivity"
+70-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:55:13-61
+71            android:screenOrientation="portrait"
+71-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:56:13-49
+72            android:windowSoftInputMode="stateHidden|adjustPan" >
+72-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:57:13-64
+73        </activity>
+74        <activity
+74-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:59:9-63:20
+75            android:name="com.paril.mlaclientapp.ui.activity.MLAViewInstructorActivity"
+75-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:60:13-66
+76            android:screenOrientation="portrait"
+76-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:61:13-49
+77            android:windowSoftInputMode="stateHidden|adjustPan" >
+77-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:62:13-64
+78        </activity>
+79        <activity
+79-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:65:9-69:20
+80            android:name="com.paril.mlaclientapp.ui.activity.MLAViewGroupActivity"
+80-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:66:13-61
+81            android:screenOrientation="portrait"
+81-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:67:13-49
+82            android:windowSoftInputMode="stateHidden|adjustPan" >
+82-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:68:13-64
+83        </activity>
+84        <activity
+84-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:71:9-75:20
+85            android:name="com.paril.mlaclientapp.ui.activity.MLAViewStudentActivity"
+85-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:72:13-63
+86            android:screenOrientation="portrait"
+86-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:73:13-49
+87            android:windowSoftInputMode="stateHidden|adjustPan" >
+87-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:74:13-64
+88        </activity>
+89        <activity
+89-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:77:9-81:20
+90            android:name="com.paril.mlaclientapp.ui.activity.MLAViewFacebookPostActivity"
+90-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:78:13-68
+91            android:screenOrientation="portrait"
+91-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:79:13-49
+92            android:windowSoftInputMode="stateHidden|adjustPan" >
+92-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:80:13-64
+93        </activity>
+94        <activity
+94-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:84:9-88:20
+95            android:name="com.paril.mlaclientapp.ui.activity.MLAViewSubjectActivity"
+95-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:85:13-63
+96            android:screenOrientation="portrait"
+96-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:86:13-49
+97            android:windowSoftInputMode="stateHidden|adjustPan" >
+97-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:87:13-64
+98        </activity>
+99        <activity
+99-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:91:9-95:20
+100            android:name="com.paril.mlaclientapp.ui.activity.MLAUpdateGradeActivity"
+100-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:92:13-63
+101            android:screenOrientation="portrait"
+101-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:93:13-49
+102            android:windowSoftInputMode="stateHidden|adjustPan" >
+102-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:94:13-64
+103        </activity>
+104
+105        <service
+105-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:97:9-100:19
+106            android:name="com.paril.mlaclientapp.service.AlertTaskIntentService"
+106-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:98:13-59
+107            android:exported="false" >
+107-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:99:13-37
+108        </service>
+109
+110        <receiver android:name="com.paril.mlaclientapp.receivers.NotificationPublisher" />
+110-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:101:9-69
+110-->C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\app\src\main\AndroidManifest.xml:101:19-66
+111
+112        <service
+112-->[:sinch-android-rtc-3.11.1] C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\sinch-android-rtc-3.11.1\build\.transforms\fb82214d227d379836ff768d79dc3914\sinch-android-rtc-3.11.1\AndroidManifest.xml:12:9-18:19
+113            android:name="com.sinch.android.rtc.internal.client.gcm.InstanceIDTokenService"
+113-->[:sinch-android-rtc-3.11.1] C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\sinch-android-rtc-3.11.1\build\.transforms\fb82214d227d379836ff768d79dc3914\sinch-android-rtc-3.11.1\AndroidManifest.xml:13:13-92
+114            android:exported="false" >
+114-->[:sinch-android-rtc-3.11.1] C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\sinch-android-rtc-3.11.1\build\.transforms\fb82214d227d379836ff768d79dc3914\sinch-android-rtc-3.11.1\AndroidManifest.xml:14:13-37
+115            <intent-filter>
+115-->[:sinch-android-rtc-3.11.1] C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\sinch-android-rtc-3.11.1\build\.transforms\fb82214d227d379836ff768d79dc3914\sinch-android-rtc-3.11.1\AndroidManifest.xml:15:13-17:29
+116                <action android:name="com.google.android.gms.iid.InstanceID" />
+116-->[:sinch-android-rtc-3.11.1] C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\sinch-android-rtc-3.11.1\build\.transforms\fb82214d227d379836ff768d79dc3914\sinch-android-rtc-3.11.1\AndroidManifest.xml:16:17-80
+116-->[:sinch-android-rtc-3.11.1] C:\Users\14159\Desktop\mla\mla-android-7b143deb8a78\sinch-android-rtc-3.11.1\build\.transforms\fb82214d227d379836ff768d79dc3914\sinch-android-rtc-3.11.1\AndroidManifest.xml:16:25-77
+117            </intent-filter>
+118        </service>
+119    </application>
+120
+121</manifest>
